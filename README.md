@@ -43,3 +43,32 @@ npm run dev
 - 目前内容基于简历与补充描述整理，重点突出 `VC 实习 ing / coffee chat / vibe coding / 驯化 AI / 欧洲穷游`
 - `Bonjour` 使用的是复制引导卡，而不是浏览器直接跳转
 - 手机号默认未公开；如需公开，可直接在 `data/site-content.ts` 里新增一个 `contactAction`
+
+## OMX Skill (Codex Desktop)
+
+This repository now includes an OMX-first execution skill for Codex Desktop.
+
+- Entry doc: [`OMX-SKILL.md`](./OMX-SKILL.md)
+- Skill contract: [`skills/omx-cli-default/SKILL.md`](./skills/omx-cli-default/SKILL.md)
+- Usage guide: [`skills/omx-cli-default/README.md`](./skills/omx-cli-default/README.md)
+
+### Quick commands
+
+```bash
+omx setup --scope user
+omx init
+```
+
+If `omx init` is unavailable in your OMX version:
+
+```bash
+omx deepinit .
+# or
+omx agents-init .
+```
+
+If `omx` is not on PATH:
+
+```bash
+npx omx <command>
+```
