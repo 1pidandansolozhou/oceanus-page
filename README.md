@@ -1,4 +1,4 @@
-﻿# Future Signal Lab
+# Future Signal Lab
 
 闄堟旦鐨勪簰鍔ㄤ釜浜轰富椤碉紝椋庢牸瀹氫綅涓衡€滄湭鏉ュ疄楠屽彴鈥濓細涓嶆槸鎶?PDF 绠€鍘嗘惉涓婄綉锛岃€屾槸鎶婁釜浜轰俊鍙枫€佽繛鎺ュ叆鍙ｃ€佽亴涓氫俊鎭拰鏈€杩戝湪鎶樿吘鐨勪笢瑗垮仛鎴愪竴寮犲彲浠ユ帰绱㈢殑涓婚〉銆?
 
@@ -44,3 +44,26 @@ npm run dev
 - `Bonjour` 浣跨敤鐨勬槸澶嶅埗寮曞鍗★紝鑰屼笉鏄祻瑙堝櫒鐩存帴璺宠浆
 - 鎵嬫満鍙烽粯璁ゆ湭鍏紑锛涘闇€鍏紑锛屽彲鐩存帴鍦?`data/site-content.ts` 閲屾柊澧炰竴涓?`contactAction`
 
+
+## Codex x OMX Bridge
+
+I maintain a separate open-source project for an execution-mode routing skill:
+
+- Repo: [1pidandansolozhou/omx-cli-default-skill](https://github.com/1pidandansolozhou/omx-cli-default-skill)
+- README: [Codex x OMX Bridge](https://github.com/1pidandansolozhou/omx-cli-default-skill#readme)
+- Pitch: [PITCH.md](https://github.com/1pidandansolozhou/omx-cli-default-skill/blob/main/PITCH.md)
+
+### Why this matters
+
+This skill helps Codex automatically choose execution mode.
+Small tasks stay conversational.
+Complex tasks are upgraded to OMX orchestration.
+
+### 中文说明
+
+这是我单独维护的一个 skill 项目（已与主页仓库分离）。
+它的价值不是“能启动 OMX”，而是“能在合适的时候自动切换到更合适的执行方式”。
+
+- 小任务：Codex 直跑
+- 复杂任务：自动升级 OMX
+- 用户始终只需要一个自然语言入口
